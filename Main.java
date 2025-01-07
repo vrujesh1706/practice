@@ -14,5 +14,6 @@ public class Main {
         OuterClass out = new OuterClass();
         OuterClass.InnerClass inner = out.new InnerClass();
         inner.display();
+        System.out.println("hello");
     }
 }
